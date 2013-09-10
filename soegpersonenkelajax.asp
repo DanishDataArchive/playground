@@ -145,7 +145,7 @@
 
 			strSql = strSql & "  and c.Navn = '" & strParish & "' ORDER BY  kilde,a.navn "
 
-			'Response.Write strSql 
+			Response.Write strSql 
 			'Response.Flush
 			'Response.End
 			' ...and then we search
